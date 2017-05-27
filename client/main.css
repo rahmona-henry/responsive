@@ -1,15 +1,15 @@
 body {
   font: 20px "Montserrat", sans-serif;
-  line-height:1.8;
-  color:#f5f6f7;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
 
 p {
-  font-size:16px;
+  font-size: 16px;
 }
 
 .margin {
-  margin-bottom:45px;
+  margin-bottom: 45px;
 }
 
 .bg-1 {
@@ -29,21 +29,21 @@ p {
 
 .bg-4 {
   background-color: #2f2f2f;
-  color:#fff;
+  color: #fff;
 }
 
 .container-fluid {
-  padding-top:70px;
-  padding-bottom:70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .navbar {
-  padding-top:15px;
+  padding-top: 15px;
   padding-bottom: 15px;
-  border:0;
+  border: 0;
   border-radius: 0;
-  margin-bottom:0;
-  font-size:12px;
+  margin-bottom: 0;
+  font-size: 12px;
   letter-spacing: 5px;
 }
 
