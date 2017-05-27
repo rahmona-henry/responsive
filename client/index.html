@@ -12,9 +12,29 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
   <body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">WHO</a></li>
+          <li><a href="#">WHAT</a></li>
+          <li><a href="#">WHERE</a></li>
+        </ul>
+      </div>
+  </div>
+</nav>
+
     <div class="container-fluid bg-1 text-center">
     <h3>Henry Griffiths Brewing Company</h3>
-    <img src="eagle.jpg" class="img-circle" alt="bird" width="350" height="350">
+    <img src="eagle.jpg" class="img-responsive img-circle" style="display:inline" alt="bird" width="350" height="300">
     <h3>Established 2015</h3>
   </div>
     <div class="container-fluid bg-2 text-center">
@@ -30,19 +50,21 @@
       <div class="row">
         <div class="col-sm-4">
           <p>Athlone</p>
-          <img src="beetle.jpg" class="img-responsive" alt="Image" width="350" height="300">
+          <img src="beetle.jpg" class="img-responsive" style="width:100%" alt="Image" width="350" height="300">
       </div>
       <div class="col-sm-4">
         <p>Leeds</p>
-        <img src="bambino.jpg" class="img-responsive" alt="Image" width="350" height="300">
+        <img src="bambino.jpg" class="img-responsive" style="width:100%" alt="Image" width="350" height="300">
     </div>
     <div class="col-sm-4">
         <p>Queenstown</p>
-        <img src="landrover.jpg" class="img-responsive" alt="Image" width="350" height="300">
+        <img src="landrover.jpg" class="img-responsive" style="width:100%" alt="Image" width="350" height="300">
     </div>
   </div>
     </div>
-
+<footer class="container-fluid bg-4 text-center">
+<p>Made in Queenstown by Rahmona Henry</p>
+</footer>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
